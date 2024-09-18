@@ -1,5 +1,5 @@
 body {
-background-color: rgb(211, 255, 214);
+background-color: #DE9CA0;
 }
 nav, p {
 margin-left: 530px;
@@ -14,29 +14,30 @@ color: black;
 }
 h1 {
 font-size: 2.5rem;
-color: black;
+color: ghostwhite;
 text-align: center;
-background-color: rgb(95, 211, 182);
+background-color: #DE525A;
 padding: 50px;
+box-shadow: 0 0 10px ghostwhite;
 }
 div {
 max-width: 350px;
 margin: 100px auto; 
 padding: 150px; 
-background: rgb(95, 211, 182);
+background: #DE525A;
 border-radius: 7px; 
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+box-shadow: 0 0 10px ghostwhite;
 }
 h3 {
 font-size: 1.0rem;
-color: black;
+color: ghostwhite;
 text-align: center;
-background-color: rgb(211, 255, 214);
+background-color: #DE9CA0;
 padding: 10px;
 }
 button {
-color: rgb(12, 0, 7);
-background-color: rgb(211, 255, 214);
+color: ghostwhite;
+background-color: #DE9CA0;
 border: none;
 padding: 5px;
 border-radius: 5px;
