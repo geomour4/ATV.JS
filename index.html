@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Vendas</title>
+</head>
+<body>
+<h1>Prime Marker</h1>
+<div>
+<h3>Qual produto você deseja?</h3>
+<input type="text" id="prod">
+<h3>Qual o valor do seu produto? (R$) </h3>
+<input type="text" id="vrl" />
+<h3>Qual a quantidade?</h3>
+<input type="text" id="qtd" />
+<h3>Qual será a sua forma de pagamento?</h3>
+<input type="text" id="pagamento" />
+<h3 id="vrlprod">Aqui está o valor total da sua compra!</h3>
+
+<button type="button" onclick="Calcular()"> Finalizar compra</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
